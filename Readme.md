@@ -7,6 +7,7 @@ git clone REPO
 
 Remember edit Variables
 Atetion on AMI because this instance need listening on port 80
+> :warning: **If your AMI don`t have webservice running port 80**: Be very careful here!
 ```
 $vim variables.tf
 ```
