@@ -54,7 +54,7 @@ data "aws_instances" "all" {
     aws_launch_configuration.this, aws_lb_listener.lbl
   ]
 }
-# Export some informations
+# Show ips of instances
 output "aws_instance" {
   value = data.aws_instances.all.public_ips
 }
